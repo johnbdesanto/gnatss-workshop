@@ -1,12 +1,15 @@
 [workspace]
 authors = [
     "Landung 'Don' Setiawan <landungs@uw.edu>",
-    "John Desanto <jdesanto@uw.edu>"
+    "John Desanto <jdesanto@uw.edu>",
 ]
 channels = ["conda-forge"]
 name = "gnatss-workshop"
 platforms = ["osx-arm64", "linux-64"]
 version = "2025.08.07"
+
+[environments]
+default = ["site"]
 
 [tasks]
 
@@ -16,3 +19,20 @@ pyproj = "*"
 
 [pypi-dependencies]
 gnatss = ">=0.2.2, <0.3"
+
+# Site feature configurations
+[feature.site.pypi-dependencies]
+jupyter-book = ">=2.0.0b0"
+
+[feature.site.dependencies]
+nodejs = ">=24.3.0,<24.4"
+
+[feature.site.tasks]
+start = { cmd = "jupyter book start", cwd = "docs" }
+build = { cmd = "jupyter book build --html", cwd = "docs" }
+
+[feature.site.tasks.publish]
+depends-on = ["build"]
+cwd = "docs"
+cmd = "cp -R _build/html $READTHEDOCS_OUTPUT/html"
+env = { READTHEDOCS_OUTPUT = ".." }
