@@ -1,0 +1,18 @@
+[workspace]
+authors = [
+    "Landung 'Don' Setiawan <landungs@uw.edu>",
+    "John Desanto <jdesanto@uw.edu>"
+]
+channels = ["conda-forge"]
+name = "gnatss-workshop"
+platforms = ["osx-arm64", "linux-64"]
+version = "2025.08.07"
+
+[tasks]
+
+[dependencies]
+python = "3.11.*"
+pyproj = "*"
+
+[pypi-dependencies]
+gnatss = ">=0.2.2, <0.3"
