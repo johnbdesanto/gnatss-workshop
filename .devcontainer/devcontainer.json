@@ -11,6 +11,7 @@
         "vscode": {
             "settings": {},
             "extensions": [
+                "ms-toolsai.jupyter",
                 "ms-python.python",
                 "charliermarsh.ruff",
                 "GitHub.copilot"
