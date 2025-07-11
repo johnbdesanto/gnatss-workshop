@@ -9,7 +9,7 @@ platforms = ["osx-arm64", "linux-64"]
 version = "2025.08.07"
 
 [environments]
-default = ["site"]
+site = ["site"]
 
 [tasks]
 
