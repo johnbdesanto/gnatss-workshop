@@ -41,7 +41,22 @@ env = { READTHEDOCS_OUTPUT = ".." }
 # Data feature configurations
 [feature.data.dependencies]
 typer = ">=0.16.0"
+pygithub = ">=2.6.1,<3"
 
 [feature.data.tasks]
 zip = { cmd = "python data.py zip", description = "Zip the data directory" }
 unzip = { cmd = "python data.py unzip", description = "Unzip data.zip to data directory" }
+
+[feature.data.tasks.release.env]
+GITHUB_REPO = "seafloor-geodesy/gnatss-workshop"
+
+[feature.data.tasks.release]
+depends-on = ["zip"]
+description = "Create GitHub release with data.zip asset"
+cmd = [
+    "python",
+    "data.py",
+    "release",
+    "--repo=${GITHUB_REPO}",
+    "--tag=v${PIXI_PROJECT_VERSION}",
+]
