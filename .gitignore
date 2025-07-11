@@ -198,3 +198,10 @@ cython_debug/
 
 # MyST build outputs
 _build
+
+# MacOS
+.DS_Store
+
+# Data archives
+data.zip
+data/*

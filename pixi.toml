@@ -10,6 +10,7 @@ version = "2025.08.07"
 
 [environments]
 site = ["site"]
+data = ["data"]
 
 [tasks]
 
@@ -36,3 +37,11 @@ depends-on = ["build"]
 cwd = "docs"
 cmd = "cp -R _build/html $READTHEDOCS_OUTPUT/html"
 env = { READTHEDOCS_OUTPUT = ".." }
+
+# Data feature configurations
+[feature.data.dependencies]
+typer = ">=0.16.0"
+
+[feature.data.tasks]
+zip = { cmd = "python data.py zip", description = "Zip the data directory" }
+unzip = { cmd = "python data.py unzip", description = "Unzip data.zip to data directory" }
