@@ -14,7 +14,7 @@ project:
   github: https://github.com/seafloor-geodesy/gnatss-workshop
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   authors:
-  - name: "John Desanto"
+  - name: "John B. DeSanto"
     id: johnbdesanto
     affiliations:
       - id: uw-ess
@@ -23,6 +23,36 @@ project:
         ror: 00cvxb145
     orcid: "0000-0003-4997-364X"
     github: johnbdesanto
+
+  - name: "David Schmidt"
+    affiliations:
+      - id: uw-ess
+        institution: University of Washington
+        department: Earth and Space Sciences
+        ror: 00cvxb145
+    orcid: "0000-0003-0858-6926"
+
+  - name: "Andrew Newman"
+    affiliations:
+      - id: ga-tech
+        institution: Georgia Institute of Technology
+        department: Earth and Atmospheric Sciences
+        ror: 01zkghx44
+    orcid: "0000-0001-7414-1197"
+
+  - name: "Surui Xie"
+    affiliations:
+      - id: uhouston
+        institution: University of Houston
+        department: Department of Civil and Environmental Engineering
+        ror: 048sx0r50
+    orcid: "0000-0002-1484-0671"
+
+  - name: "Melissa Weber"
+    affiliations:
+      - id: earthscope
+        institution: EarthScope Consortium
+        ror: 04danrt76
 
   - name: "Landung 'Don' Setiawan"
     id: lsetiawan
