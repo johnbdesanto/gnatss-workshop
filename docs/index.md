@@ -20,14 +20,6 @@ Network with other researchers who share common interests
 * Time: 9:00 AM - 5:00 PM
 * Location: Georgia Tech, Atlanta GA, U.S.A.
 
-## Organizers
-
-Andy Newman: Georgia Tech \
-John DeSanto: Univ. Washington \
-David Schmidt: Univ. Washington \
-Surui Xie: Univ. Houston \
-Melissa Weber: EarthScope Consortium
-
 ## Preliminary Agenda
 _(subject to change)_
 
