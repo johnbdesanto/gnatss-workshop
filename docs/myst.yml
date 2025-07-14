@@ -52,7 +52,6 @@ project:
     affiliations:
       - id: earthscope
         institution: EarthScope Consortium
-        department: Earth and Space Sciences
         ror: 04danrt76
 
   - name: "Landung 'Don' Setiawan"
