@@ -37,3 +37,33 @@ This will start a local jupyterbook server, and you can view the workshop at the
 After you are satisfied with your changes, you can commit them,
 and then create a pull request to the `main` branch of the repository.
 This will allow [ReadtheDocs](https://readthedocs.org) to generate a preview of your changes.
+
+## Release Process
+
+The release process for the GNATSS Workshop is a manual process that involves the following steps:
+
+1. **Update the Version**: Update the version in `pixi.toml` to reflect the new release version.
+
+2. **Zip the Data**: Run the following command to zip the data directory:
+
+   ```bash
+   pixi run -e data zip
+   ```
+
+   This will create a `data.zip` file in the root of the repository.
+
+3. **Setup Github Token**: Ensure you have a GitHub token set up in your environment for release. You can set it as an environment variable:
+
+   ```bash
+   export GITHUB_TOKEN=your_github_token
+   ```
+
+   Replace `your_github_token` with your actual GitHub token.
+
+4. **Create a GitHub Release**: Run the following command to create a GitHub release with the `data.zip` asset:
+
+   ```bash
+   pixi run -e data release
+   ```
+
+   This command will create a new release on GitHub with the specified version and attach the `data.zip` file.
