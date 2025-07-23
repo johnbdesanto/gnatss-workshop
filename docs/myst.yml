@@ -65,6 +65,8 @@ project:
     github: lsetiawan
   toc:
     - file: index.md
+    - file: exercise-1.ipynb
+    - file: exercise-2.ipynb
 
 site:
   template: book-theme
