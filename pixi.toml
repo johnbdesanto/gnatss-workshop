@@ -23,7 +23,8 @@ gnatss = ">=0.2.2, <0.3"
 
 # Site feature configurations
 [feature.site.pypi-dependencies]
-jupyter-book = ">=2.0.0b0"
+jupyter-book = ">=2.0.0b2"
+
 
 [feature.site.dependencies]
 nodejs = ">=24.3.0,<24.4"

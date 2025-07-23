@@ -464,7 +464,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/71/92/5e77f98553e9e75130c78900d000368476aed74276eb8ae8796f65f00918/jsonpointer-3.0.0-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/a2/3d/023389198f69c722d039351050738d6755376c8fd343e91dc493ea485905/jsonschema-4.24.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/01/0e/b27cdbaccf30b890c40ed1da9fd4a3593a5cf94dae54fb34f8a4b74fcd3f/jsonschema_specifications-2025.4.1-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/e7/37/83d37c9d99aa0b34e40805b63164e0ca022bbf68a356a3452066ba087d45/jupyter_book-2.0.0b0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/f0/2f/e490eed403f5a18ca1170ae9f0ea2d30732ec70f7314c424bc16a4432ba9/jupyter_book-2.0.0b2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/11/85/b0394e0b6fcccd2c1eeefc230978a6f8cb0c5df1e4cd3e7625735a0d7d1e/jupyter_client-8.6.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/2f/57/6bffd4b20b88da3800c5d691e0337761576ee688eb01299eae865689d2df/jupyter_core-5.8.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/e2/48/577993f1f99c552f18a0428731a755e06171f9902fa118c379eb7c04ea22/jupyter_events-0.12.0-py3-none-any.whl
@@ -614,7 +614,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/71/92/5e77f98553e9e75130c78900d000368476aed74276eb8ae8796f65f00918/jsonpointer-3.0.0-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/a2/3d/023389198f69c722d039351050738d6755376c8fd343e91dc493ea485905/jsonschema-4.24.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/01/0e/b27cdbaccf30b890c40ed1da9fd4a3593a5cf94dae54fb34f8a4b74fcd3f/jsonschema_specifications-2025.4.1-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/e7/37/83d37c9d99aa0b34e40805b63164e0ca022bbf68a356a3452066ba087d45/jupyter_book-2.0.0b0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/f0/2f/e490eed403f5a18ca1170ae9f0ea2d30732ec70f7314c424bc16a4432ba9/jupyter_book-2.0.0b2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/11/85/b0394e0b6fcccd2c1eeefc230978a6f8cb0c5df1e4cd3e7625735a0d7d1e/jupyter_client-8.6.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/2f/57/6bffd4b20b88da3800c5d691e0337761576ee688eb01299eae865689d2df/jupyter_core-5.8.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/e2/48/577993f1f99c552f18a0428731a755e06171f9902fa118c379eb7c04ea22/jupyter_events-0.12.0-py3-none-any.whl
@@ -1853,10 +1853,10 @@ packages:
   requires_dist:
   - referencing>=0.31.0
   requires_python: '>=3.9'
-- pypi: https://files.pythonhosted.org/packages/e7/37/83d37c9d99aa0b34e40805b63164e0ca022bbf68a356a3452066ba087d45/jupyter_book-2.0.0b0-py3-none-any.whl
+- pypi: https://files.pythonhosted.org/packages/f0/2f/e490eed403f5a18ca1170ae9f0ea2d30732ec70f7314c424bc16a4432ba9/jupyter_book-2.0.0b2-py3-none-any.whl
   name: jupyter-book
-  version: 2.0.0b0
-  sha256: c3f4f032eb5433b79dc7abea068a686409b5a9f0cac062652449a2cd1485d8d6
+  version: 2.0.0b2
+  sha256: 1ea4df00a4b96921012e2461cd76e21fcc557385e54ed481f5cab7646201af52
   requires_dist:
   - ipykernel
   - jupyter-core
