@@ -27,9 +27,6 @@ project:
   - name: "David Schmidt"
     affiliations:
       - id: uw-ess
-        institution: University of Washington
-        department: Earth and Space Sciences
-        ror: 00cvxb145
     orcid: "0000-0003-0858-6926"
 
   - name: "Andrew Newman"
