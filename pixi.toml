@@ -5,7 +5,7 @@ authors = [
 ]
 channels = ["conda-forge"]
 name = "gnatss-workshop"
-platforms = ["osx-arm64", "linux-64"]
+platforms = ["osx-arm64", "linux-64", "osx-64"]
 version = "2025.7.24"
 
 [activation.env]
@@ -69,8 +69,8 @@ cmd = [
     "./dist/*.zip",
     "--title",
     "$RELEASE_VERSION",
-    "--notes",
-    "Workshop data release v$PIXI_PROJECT_VERSION",
+    "-F",
+    "RELEASE.md",
 ]
 
 [feature.data.tasks.download-latest-data]

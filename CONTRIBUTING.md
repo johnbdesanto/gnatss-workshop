@@ -45,7 +45,9 @@ The release process for the GNATSS Workshop is a manual process that involves th
 1. **Update the Version**: Update the version in `pixi.toml` to reflect the new release version.
 We recommend following [semantic versioning](https://semver.org/) for versioning with the format `YYYY.M.D`, where `YYYY` is the year, `M` is the month, and `D` is the day of the release.
 
-2. **Setup Github Token**: Ensure you have a GitHub token set up in your environment for release.
+2. **Update the Release Notes**: Update the `RELEASE.md` file with the new release date and any relevant changes or updates to the workshop content.
+
+3. **Setup Github Token**: Ensure you have a GitHub token set up in your environment for release.
 If you don't have a token yet, you can follow the [instruction provided by Github](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic).
 Once you have your token, you need to set it in your environment:
 
@@ -55,7 +57,7 @@ Once you have your token, you need to set it in your environment:
 
    Replace `your_github_token` with your actual GitHub token.
 
-3. **Zip and Release the Data**: Run the following command to zip and release the data directory:
+4. **Zip and Release the Data**: Run the following command to zip and release the data directory:
 
    ```bash
    pixi run -e data release
