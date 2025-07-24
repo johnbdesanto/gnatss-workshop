@@ -6,3 +6,4 @@ set -e
 sudo chown vscode .pixi
 pixi install
 pixi shell-hook -e ${PIXI_ENV} >> ${VSCODE_HOME}/.bashrc
+pixi run -e data setup-data
