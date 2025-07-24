@@ -1,4 +1,5 @@
 # GNATSS Workshop
+
 This is a repository of GNATSS processing examples and test data sets. It was developed for a GNSS-A short course in conjunction with the Near-Trench Community Geodesy Experiment, funded by NSF.
 
 Global Navigation Satellite Systems - Acoustic (GNSS-A) is a seafloor geodetic technique that combines acoustic ranging of an array of seafloor transponders with GNSS in order to position points on the seafloor with ~cm level horizontal accuracy.
@@ -9,13 +10,15 @@ The [Near-Trench Community Geodetic Experiment](https://www.seafloorgeodesy.org/
 
 For more information on the GNSS-A short course, [click here](https://www.seafloorgeodesy.org/post/gnss-acoustic-processing-short-course).
 
+## Running Exercises
 
-<!-- I am choosing to comment out the following paragraph until we have uploaded at least one exercise so that the instructions are valid. -->
-
-<!-- # Running Exercises
-The exercises hosted in this repository may be accessed via github Codespaces. In order to access the Codespace, you need to register an account with [github](github.com).
+The exercises hosted in this repository may be accessed via [GitHub Codespaces](https://github.com/features/codespaces) - "a development environment that's hosted in the cloud". In order to access the Codespace, you need to register an account with [GitHub](github.com).
 
 Exercises may be run via Jupyter notebook or on the command line interface. An overview for them is also hosted at [gnatss-workshop.readthedocs.io](https://gnatss-workshop.readthedocs.io).
 
-[Click here to open a Codespace](https://codespaces.new/seafloor-geodesy/gnatss-workshop?quickstart=1). -->
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/seafloor-geodesy/gnatss-workshop?quickstart=1)
 
+☝️ Click the button above to go to options window to launch a GitHub Codespace.
+
+GitHub currently gives every user [120 vCPU hours per month for free](https://docs.github.com/en/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces#monthly-included-storage-and-core-hours-for-personal-accounts), beyond that you must pay.
+**So be sure to explicitly stop or shut down your codespace when you are done by going to this page ([https://github.com/codespaces](https://github.com/codespaces)).**
