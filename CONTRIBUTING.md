@@ -40,14 +40,25 @@ This will allow [ReadtheDocs](https://readthedocs.org) to generate a preview of 
 
 ## Release Process
 
-The release process for the GNATSS Workshop is a manual process that involves the following steps:
+The release process for the GNATSS Workshop is a manual process that involves the following steps.
+
+### 1. Updating the codebase
+
+**NOTE: The release versioning follows the format `YYYY.M.D`, where `YYYY` is the year, `M` is the month, and `D` is the day of the release.**
+
+0. **Create a Release Branch**: Create a new branch for the release, typically named `release/YYYY.M.D`.
 
 1. **Update the Version**: Update the version in `pixi.toml` to reflect the new release version.
-We recommend following [semantic versioning](https://semver.org/) for versioning with the format `YYYY.M.D`, where `YYYY` is the year, `M` is the month, and `D` is the day of the release.
 
 2. **Update the Release Notes**: Update the `RELEASE.md` file with the new release date and any relevant changes or updates to the workshop content.
 
-3. **Setup Github Token**: Ensure you have a GitHub token set up in your environment for release.
+3. **Commit Your Changes**: Commit your changes to the repository with a meaningful commit message, such as "Release version YYYY.M.D".
+
+4. **Make a pull request**: Push your changes to the remote repository and create a pull request to merge your changes into the `main` branch.
+
+### 2. Updating the data and create a release
+
+1. **Setup Github Token**: Ensure you have a GitHub token set up in your environment for release.
 If you don't have a token yet, you can follow the [instruction provided by Github](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic).
 Once you have your token, you need to set it in your environment:
 
@@ -57,7 +68,7 @@ Once you have your token, you need to set it in your environment:
 
    Replace `your_github_token` with your actual GitHub token.
 
-4. **Zip and Release the Data**: Run the following command to zip and release the data directory:
+2. **Zip and Release the Data**: Run the following command to zip and release the data directory:
 
    ```bash
    pixi run -e data release
@@ -65,7 +76,7 @@ Once you have your token, you need to set it in your environment:
 
    This will create a `data.zip` file in a `./dist` directory. After that, the script will upload the `data.zip` file to the GitHub release.
 
-### Updating the data once released
+### Optional: Updating the data once released
 
 You have the option to update the data after it has been released.
 To do this, you can run the following command:
