@@ -23,7 +23,7 @@
     "mounts": [
         "source=${localWorkspaceFolderBasename}-pixi,target=${containerWorkspaceFolder}/.pixi,type=volume"
     ],
-    "postCreateCommand": ".devcontainer/postCreate.sh",
+    "onCreateCommand": ".devcontainer/onCreate.sh",
     "hostRequirements": {
         "cpus": 4,
         "memory": "16gb",
