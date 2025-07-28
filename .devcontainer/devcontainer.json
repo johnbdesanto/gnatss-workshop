@@ -10,8 +10,9 @@
     "customizations": {
         "vscode": {
             "settings": {
-            "workbench.editorAssociations": {
-                "*.md": "vscode.markdown.preview.editor"
+                "workbench.editorAssociations": {
+                    "*.md": "vscode.markdown.preview.editor"
+                }
             },
             "extensions": [
                 "ms-toolsai.jupyter",
