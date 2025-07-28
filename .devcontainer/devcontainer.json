@@ -24,6 +24,7 @@
         "source=${localWorkspaceFolderBasename}-pixi,target=${containerWorkspaceFolder}/.pixi,type=volume"
     ],
     "onCreateCommand": ".devcontainer/onCreate.sh",
+    "updateContentCommand": ".devcontainer/updateContent.sh",
     "hostRequirements": {
         "cpus": 4,
         "memory": "16gb",
