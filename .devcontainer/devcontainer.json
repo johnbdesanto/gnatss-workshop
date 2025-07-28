@@ -9,13 +9,23 @@
     },
     "customizations": {
         "vscode": {
-            "settings": {},
+            "settings": {
+            "workbench.editorAssociations": {
+                "*.md": "vscode.markdown.preview.editor"
+            },
             "extensions": [
                 "ms-toolsai.jupyter",
                 "ms-python.python",
                 "charliermarsh.ruff",
                 "tamasfe.even-better-toml",
                 "jjjermiah.pixi-vscode"
+            ]
+        },
+        // Configure properties specific to Codespaces.
+        "codespaces": {
+            "openFiles": [
+                "docs/index.md",
+                "RELEASE.md"
             ]
         }
     },
