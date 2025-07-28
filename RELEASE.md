@@ -1,6 +1,6 @@
 # GNSS-A Data Analysis Workshop
 
-**Release Date:** 2025-07-24
+**Release Date:** 2025-07-28
 
 **Workshop Website**: [gnatss-workshop.readthedocs.io](https://gnatss-workshop.readthedocs.io)
 

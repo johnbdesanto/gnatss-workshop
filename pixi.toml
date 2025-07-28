@@ -6,7 +6,7 @@ authors = [
 channels = ["conda-forge"]
 name = "gnatss-workshop"
 platforms = ["osx-arm64", "linux-64", "osx-64"]
-version = "2025.7.24"
+version = "2025.7.28"
 
 [activation.env]
 RELEASE_VERSION = "v$PIXI_PROJECT_VERSION"
