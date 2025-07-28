@@ -21,20 +21,9 @@
                 "tamasfe.even-better-toml",
                 "jjjermiah.pixi-vscode"
             ]
-        },
-        // Configure properties specific to Codespaces.
-        "codespaces": {
-            "openFiles": [
-                "docs/index.md",
-                "RELEASE.md"
-            ]
         }
     },
-    "features": {
-        "ghcr.io/devcontainers/features/python:1": {
-            "installJupyterlab": true
-        }
-    },
+    "features": {},
     "mounts": [
         "source=${localWorkspaceFolderBasename}-pixi,target=${containerWorkspaceFolder}/.pixi,type=volume"
     ],
