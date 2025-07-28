@@ -30,7 +30,11 @@
             ]
         }
     },
-    "features": {},
+    "features": {
+        "ghcr.io/devcontainers/features/python:1": {
+            "installJupyterlab": true
+        }
+    },
     "mounts": [
         "source=${localWorkspaceFolderBasename}-pixi,target=${containerWorkspaceFolder}/.pixi,type=volume"
     ],
