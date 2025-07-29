@@ -1,7 +1,7 @@
 FROM mcr.microsoft.com/devcontainers/base:jammy
 
 ARG PIXI_VERSION=v0.48.2
-ARG PIXI_ENV=default
+ARG CONDA_DEFAULT_ENV=default
 
 RUN curl -L -o /usr/local/bin/pixi -fsSL --compressed "https://github.com/prefix-dev/pixi/releases/download/${PIXI_VERSION}/pixi-$(uname -m)-unknown-linux-musl" \
     && chmod +x /usr/local/bin/pixi \
@@ -10,7 +10,7 @@ RUN curl -L -o /usr/local/bin/pixi -fsSL --compressed "https://github.com/prefix
 # set some user and workdir settings to work nicely with vscode
 ENV VSCODE_HOME=/home/vscode \
     VSCODE_USER=vscode \
-    PIXI_ENV=${PIXI_ENV} \
+    CONDA_DEFAULT_ENV=${CONDA_DEFAULT_ENV} \
     SHELL=/bin/bash
 USER ${VSCODE_USER}
 WORKDIR ${VSCODE_HOME}
