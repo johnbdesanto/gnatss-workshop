@@ -3,6 +3,7 @@
 [![BSD License](https://badgen.net/badge/license/BSD-3-Clause/blue)](LICENSE)
 [![ssec](https://img.shields.io/badge/SSEC-Workshop-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic)](https://escience.washington.edu/offshore-geodesy/)
 [![Documentation Status](https://readthedocs.org/projects/gnatss-workshop/badge/?version=latest)](https://gnatss-workshop.readthedocs.io)
+[![DOI](https://zenodo.org/badge/1008630034.svg)](https://zenodo.org/badge/latestdoi/1008630034)
 
 This is a repository of GNATSS processing examples and test data sets. It was developed for a GNSS-A short course in conjunction with the Near-Trench Community Geodesy Experiment, funded by NSF.
 
