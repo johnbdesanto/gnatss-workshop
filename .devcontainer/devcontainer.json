@@ -9,7 +9,11 @@
     },
     "customizations": {
         "vscode": {
-            "settings": {},
+            "settings": {
+                "workbench.editorAssociations": {
+                    "*.md": "vscode.markdown.preview.editor"
+                }
+            },
             "extensions": [
                 "ms-toolsai.jupyter",
                 "ms-python.python",
@@ -23,7 +27,8 @@
     "mounts": [
         "source=${localWorkspaceFolderBasename}-pixi,target=${containerWorkspaceFolder}/.pixi,type=volume"
     ],
-    "postCreateCommand": ".devcontainer/postCreate.sh",
+    "onCreateCommand": ".devcontainer/onCreate.sh",
+    "updateContentCommand": ".devcontainer/updateContent.sh",
     "hostRequirements": {
         "cpus": 4,
         "memory": "16gb",
