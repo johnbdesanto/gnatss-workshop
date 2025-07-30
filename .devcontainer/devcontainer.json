@@ -2,10 +2,7 @@
     "name": "default-workspace",
     "build": {
         "dockerfile": "Dockerfile",
-        "context": "..",
-        "args": {
-            "PIXI_ENV": "default"
-        }
+        "context": ".."
     },
     "customizations": {
         "vscode": {
