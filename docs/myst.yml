@@ -65,7 +65,6 @@ project:
     - file: exercise-1.ipynb
     - file: exercise-2.ipynb
     - file: exercise-3.ipynb
-    - file: exercise-4.ipynb
 
 site:
   template: book-theme
