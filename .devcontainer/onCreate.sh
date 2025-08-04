@@ -4,5 +4,5 @@
 set -e
 
 sudo chown vscode .pixi
-pixi install
+pixi install --all
 pixi shell-hook >> ${VSCODE_HOME}/.bashrc
