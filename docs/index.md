@@ -64,7 +64,7 @@ Exercise #4: Velocity estimation
 
 The quickest way to get started without manual installation is to use
 [GitHub Codespaces](https://github.com/features/codespaces) - "a development environment that's hosted in the cloud". This allows you to run the workshop exercises directly in your browser without needing to set up a local environment.
-In order to access the Codespace, you need to register an account with [GitHub](github.com).
+In order to access the Codespace, you need to register an account with [GitHub](https://github.com).
 
 :::{important}
 When clicking the button below, if you have any current codespace,
