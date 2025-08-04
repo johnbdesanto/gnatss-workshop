@@ -52,13 +52,13 @@ _(subject to change)_
 
 ## List of Exercises
 
-Exercise #1: GNATSS configuration and end-to-end processing
+Exercise #1: [Introduction to GNATSS](./exercise-1.ipynb)
 
-Exercise #2: Flagging GNSS-A travel time residuals
+Exercise #2: [Travel Time Residuals and Residual Flagging](./exercise-2.ipynb)
 
-Exercise #3: Exploring GNSS-A metadata
+Exercise #3: [GNSS-Acoustic Metadata](./exercise-3.ipynb)
 
-Exercise #4: Velocity estimation
+Exercise #4: [GNSS-Acoustic Velocity Calculation](./exercise-4.ipynb)
 
 ## Running the Exercises
 
