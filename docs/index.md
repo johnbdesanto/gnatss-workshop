@@ -70,6 +70,10 @@ In order to access the Codespace, you need to register an account with [GitHub](
 When clicking the button below, if you have any current codespace,
 we recommend deleting it to ensure you have the latest
 changes from the workshop repository.
+
+Additionally, once codespace is rendered,
+please wait until the `README.md` file is loaded
+to ensure that setup is complete.
 :::
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/seafloor-geodesy/gnatss-workshop?quickstart=1)
