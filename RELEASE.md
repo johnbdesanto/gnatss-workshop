@@ -1,6 +1,6 @@
 # GNSS-A Data Analysis Workshop
 
-**Release Date:** 2025-08-01
+**Release Date:** 2025-08-05
 
 **Workshop Website**: [gnatss-workshop.readthedocs.io](https://gnatss-workshop.readthedocs.io)
 
@@ -57,13 +57,13 @@ In order to access the Codespace, you need to register an account with [GitHub](
 
 All exercises can be found in the `docs` directory of this repository. Each exercise is designed to build on the previous one, gradually increasing in complexity and depth of understanding.
 
-Exercise 1: GNATSS configuration and end-to-end processing
+Exercise 1: Introduction to GNATSS
 
-Exercise 2: Flagging GNSS-A travel time residuals
+Exercise 2: Travel Time Residuals and Residual Flagging
 
-Exercise 3: Exploring GNSS-A metadata
+Exercise 3: GNSS-Acoustic Metadata
 
-Exercise 4: Velocity estimation
+Exercise 4: GNSS-Acoustic Velocity Calculation
 
 ## Data and Examples
 
