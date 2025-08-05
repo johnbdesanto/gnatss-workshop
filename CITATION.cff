@@ -18,5 +18,5 @@ authors:
 - family-names: "Setiawan"
   given-names: "Landung"
   orcid: "https://orcid.org/0000-0002-1624-2667"
-title: "gnatss-workshop"
+title: "A workshop for GNATSS, an open-source software for processing GNSS-A data for seafloor horizontal positioning."
 doi: 10.5281/zenodo.16748111
