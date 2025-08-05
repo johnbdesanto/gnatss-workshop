@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Desanto"
+  given-names: "John"
+  orcid: "https://orcid.org/0000-0003-4997-364X"
+- family-names: "Schmidt"
+  given-names: "David"
+  orcid: "https://orcid.org/0000-0003-0858-6926"  
+- family-names: "Newman"
+  given-names: "Andrew"
+  orcid: "https://orcid.org/0000-0001-7414-1197" 
+- family-names: "Xie"
+  given-names: "Surui"
+  orcid: "https://orcid.org/0000-0002-1484-0671" 
+- family-names: "Weber"
+  given-names: "Melissa"
+- family-names: "Setiawan"
+  given-names: "Landung"
+  orcid: "https://orcid.org/0000-0002-1624-2667"
+title: "A workshop for GNATSS, an open-source software for processing GNSS-A data for seafloor horizontal positioning."
+doi: 10.5281/zenodo.16748111
