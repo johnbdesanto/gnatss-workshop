@@ -49,9 +49,9 @@ The quickest way to get started without manual installation is to use
 [GitHub Codespaces](https://github.com/features/codespaces) - "a development environment that's hosted in the cloud". This allows you to run the workshop exercises directly in your browser without needing to set up a local environment.
 In order to access the Codespace, you need to register an account with [GitHub](github.com)
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/seafloor-geodesy/gnatss-workshop?quickstart=1)
+[Launch GitHub Codespaces](https://codespaces.new/seafloor-geodesy/gnatss-workshop?quickstart=1)
 
-☝️ Click the button above to go to options window to launch a GitHub Codespace.
+☝️ Click the link above to go to options window to launch a GitHub Codespace.
 
 ## List of Exercises
 
